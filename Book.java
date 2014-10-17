@@ -9,17 +9,7 @@ public class Book {
 		publisher=null;
 		price=null;
 	}
-	public Book(String i,String t,String a,String d,String e,String p)
-	{
-		title=t;
-		authorID=a;
-		publishDate=d;
-		publisher=e;
-		price=p;
-	}
-	public String getISBN() {
-		return ISBN;
-	}
+	public Book(Strin
 	public void setISBN(String iSBN) {
 		ISBN = iSBN;
 	}
