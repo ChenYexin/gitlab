@@ -1,4 +1,4 @@
-package book;
+
 
 public class Book {
 	public Book()
@@ -9,7 +9,7 @@ public class Book {
 		publisher=null;
 		price=null;
 	}
-	public Book(Strin
+
 	public void setISBN(String iSBN) {
 		ISBN = iSBN;
 	}

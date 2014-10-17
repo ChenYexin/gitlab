@@ -1,4 +1,4 @@
-package book;
+
 import java.sql.*;
 
 
@@ -7,7 +7,7 @@ public class DBConnection {
 	  	try {
 	  		Class.forName("com.mysql.jdbc.Driver");
 	  		con = DriverManager.getConnection(URL,USER,PWD);
-	  		System.out.prblock
+
 	  		System.out.println("driver load failed");
 	  		e.printStackTrace();
 	  	}

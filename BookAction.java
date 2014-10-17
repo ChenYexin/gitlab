@@ -1,4 +1,4 @@
-﻿package book;
+﻿
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -11,9 +11,6 @@ import java.util.ArrayList;
 import com.opensymphony.xwork2.ActionSupport;
 
 
-hByName()
-	{
-		B.clear();
 		try{
 			String initializeString="select * from book where authorID = ?";
 			String searchAuthorString="select * from author where name= ?";
