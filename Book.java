@@ -9,7 +9,7 @@ public class Book {
 		publisher=null;
 		price=null;
 	}
-	public Book(String i,String t,String a,String d,String e,String p)
+)
 	{
 		title=t;
 		authorID=a;

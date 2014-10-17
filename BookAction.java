@@ -1,4 +1,4 @@
-package book;
+﻿package book;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,19 +10,7 @@ import java.util.ArrayList;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-
-
-public class BookAction extends ActionSupport{
-	private String jspTitle;
-	private String target;
-	private ArrayList<Book> B=new ArrayList<Book>();
-	private ArrayList<Author> A=new ArrayList<Author>();
-	private Author newAuthor=new Author();
-	private Book newBook=new Book(); 
-	private DBConnection bookConnection=new DBConnection();
-	public String searchByName()
-	{
-		B.clear();
+	B.clear();
 		try{
 			String initializeString="select * from book where authorID = ?";
 			String searchAuthorString="select * from author where name= ?";
